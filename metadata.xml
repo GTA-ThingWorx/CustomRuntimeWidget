@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Entities>
+    <ExtensionPackages>
+        <ExtensionPackage dependsOn="" description="Create your own custom runtime widget directly in the Mashup Builder" minimumThingWorxVersion="9.1.8" name="CustomRuntimeWidget" packageVersion="0.1.0" vendor="GTA"></ExtensionPackage>
+    </ExtensionPackages>
+    <Widgets>
+        <Widget name="CustomRuntimeWidget">
+            <UIResources>
+                <FileResource file="CustomRuntimeWidget.ide.js" isDevelopment="true" isRuntime="false" type="JS"/>
+                <FileResource file="CustomRuntimeWidget.runtime.js" isDevelopment="false" isRuntime="true" type="JS"/>
+            </UIResources>
+        </Widget>
+    </Widgets>
+</Entities>
