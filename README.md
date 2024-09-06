@@ -16,7 +16,7 @@ Main features:
 1. Clone this repository and just _zip_ the `metadata.xml` file and `ui` folder. Alternatively, you can simply download the latest release file [here](https://github.com/GTA-ThingWorx/CustomRuntimeWidget/releases).
 2. Open the ThingWorx Composer and import the `zip` file as an extension.
 3. Open a mashup in edit mode and drag the `CustomRuntimeWidget` widget in your mashup.
-4. Because of a bug, you have to edit the `Configuration` property of the widget (just make a minor change, e. g. change the default value of `testNumber` to `1`).
+4. [Because of a bug](https://github.com/GTA-ThingWorx/CustomRuntimeWidget/issues/5), you have to edit the `Configuration` property of the widget (just make a minor change, e. g. change the default value of `testNumber` to `1`).
 5. Click on `View Mashup` and see the result.
 
 Notes:
